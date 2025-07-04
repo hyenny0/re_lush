@@ -1,0 +1,166 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    letter-spacing: -0.5px;
+    
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+    font: inherit;
+}
+
+html {
+    -webkit-touch-callout: none;
+    //-webkit-user-select: none;
+    -webkit-tap-highlight-color: rgb(0, 0, 0, 0);
+}
+
+body {
+    line-height: 1;
+    font-family: "Red Hat", "pretendard" !important;
+    scroll-snap-type: y mandatory;
+}
+
+ol,
+ul {
+    list-style: none;
+    font: inherit;
+}
+
+blockquote,
+q {
+    quotes: none;
+    font: inherit;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: inherit;
+}
+
+button {
+    border-style: none;
+    letter-spacing: -0.5px;
+    cursor: pointer;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+
+    &:hover {
+        text-decoration: none;
+        color: initial;
+    }
+}
+
+body{
+    font-family: "Red Hat Display", sans-serif !important;
+}
