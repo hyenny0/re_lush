@@ -1,0 +1,68 @@
+@import "../utils/mixins";
+
+#subLayout {
+  .sub_title {
+    font-family: "Cormorant", serif;
+    font-size: 38px;
+    text-align: center;
+    padding: 80px 0;
+    letter-spacing: -1px;
+  }
+  .content_title {
+    width: 50%;
+    // background: red;
+    float: right;
+    @include mobile {
+      width: 100%;
+      float: none;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    p {
+      width: 60%;
+      // background: mintcream;
+      font-size: 30px;
+      font-weight: 600;
+      word-break: keep-all;
+      line-height: 1.2;
+      @include mobile {
+        width: 60%;
+        text-align: center;
+        font-size: 25px;
+      }
+    }
+
+    .report_download {
+      width: 357px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 30px;
+      padding: 19px;
+      background: #fff;
+      transition: all 0.7s;
+      border-bottom: 1px solid #000;
+      &:hover {
+        background-color: red;
+      }
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        text-align: left;
+      }
+      i {
+        font-size: 18px;
+      }
+      @include mobile{
+        p{
+            font-size: 16px;
+        }
+        i{
+            font-size: 16px;
+        }
+      }
+    }
+  }
+}

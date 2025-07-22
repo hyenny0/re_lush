@@ -1,0 +1,58 @@
+@import "../utils/mixins";
+
+.sub_visual{
+    background-image: url('/static/img/sub1_1_visual.png');
+    width: 100%;
+    // height: 80vh;
+    aspect-ratio:22 / 10;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 7vw 10vw;
+    &.sub2_1_visual{
+        background-image: url('/static/img/sub2_1_visual.png');
+    }
+    &.sub2_2_visual{
+        background-image: url('/static/img/sub2_2_visual.png');
+    }
+    .deemd{
+        width: 100%;
+        height: 100%;
+        background: rgb(0 0 0 / 30%);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &__title{
+       color: #fff;
+       position: relative;
+       z-index: 2;
+       display: flex;
+       flex-direction: column;
+       gap: 13px;
+       h5{
+        font-family: 'LushFont', sans-serif;
+       }
+       h4{
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: -1.1px;
+        @include mobile{
+            font-size: 30px;
+        }
+       }
+       p{
+        font-size: 18px;
+        letter-spacing: -1.1px;
+        font-weight: 300;
+        @include mobile{
+            font-size: 16px;
+        }
+       }
+    }
+}

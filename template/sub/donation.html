@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>기부와 나눔</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="/static/css/main.css" />
+  </head>
+  <body>
+    <section class="sub_visual sub2_1_visual">
+      <div class="sub_visual__title">
+        <h5>lush</h5>
+        <h4>기부와 나눔</h4>
+        <p>러쉬의 선한 영향력보고서</p>
+      </div>
+      <div class="deemd"></div>
+    </section>
+    <div id="subLayout">
+      <h5 class="sub_title">Donation and Sharing</h5>
+      <div class="content_title">
+        <p data-aos="fade-up" data-aos-duration="1500">
+          러쉬의 나눔과 기부는 더욱 다양해졌고 점점 더 복잡해지는 인류의 변화에
+          대응하려는 놀라운 단체를 지원하기 위해 진화했습니다.
+        </p>
+        <button class="report_download">
+          <p>기부보고서 2019-20</p>
+          <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+      <div class="horizontal-imgSlider">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/static/img/content/sub2_1_imgSlider1.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/static/img/content/sub2_1_imgSlider2.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/static/img/content/sub2_1_imgSlider3.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="/static/img/content/sub2_1_imgSlider4.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="/static/img/content/sub2_1_imgSlider5.png" />
+            </div>
+          </div>
+        </div>
+        <div class="horizontal-imgSlider_text">
+            <p data-aos="fade-up" data-aos-duration="1500">
+              영리기업인 러쉬가 관심을 갖는 문제에 대해 기부와 캠페인을 통해
+              긍정적인 변화를 이끌어내고자 현장에서 일하는 비슷한 생각을 가진 파트너
+              비영리 단체와 공급업체에 자원을 제공하고 플랫폼을 제공합니다. 러쉬의
+              기부는 크게 5개의 범주로 나뉩니다. 러쉬가 어떤 단체를 후원하고, 얼마나
+              많이 기부했는지, 각 범주가 세상의 변화를 어떻게 지원하고 있는지에 대한
+              자세한 내용을 만나볼 수 있습니다.
+            </p>
+            <p data-aos="fade-up" data-aos-duration="1500">
+                “미래를 어떻게 바라보는지에 대한 질문에 제 대답은 항상 같습니다. 지구 상에서 일어나는 변화와 과학적인 데이터를 바라보면 비관적일 수 밖에 없습니다. 하지만 이 지구와 어려움에 처한 사람의 삶을 회복하기 위해 일하는 사람을 만나보면, 누구든 자연스럽게 낙관론자가 되죠.”
+                <span class="write">
+                    — 드로우다운 저자 폴 호킨 (Paul Hawken)
+                </span>
+            </p>
+        </div>
+      </div>
+    </div>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 2.5,
+          spaceBetween: 15,
+//          centeredSlides: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+    </script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="/static/js/imgSlider.js"></script>
+  </body>
+</html>
