@@ -1,0 +1,30 @@
+.report_download {
+  width: 357px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 19px;
+  background: #fff;
+  transition: all 0.7s;
+  border-bottom: 1px solid #000;
+  &:hover {
+    background-color: red;
+  }
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+  }
+  i {
+    font-size: 18px;
+  }
+  @include mobile {
+    p {
+      font-size: 16px;
+    }
+    i {
+      font-size: 16px;
+    }
+  }
+}
