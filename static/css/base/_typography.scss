@@ -4,9 +4,31 @@
     color: rgb(0, 0, 0,0.8);
     line-height: 1.4;
     word-break: keep-all;
+    @include mobile{
+        font-size: 16px;
+    }
 }
 
-.sub_content_title{
+.sub_content_title-xl{
     font-weight: 500;
     font-size: 28px;
+    @include mobile{
+        font-size: 26px;
+    }
+}
+
+.sub_content_title-l{
+    font-weight: 500;
+    font-size: 26px;
+    @include mobile{
+        font-size: 24px;
+    }
+}
+
+.sub_content_title-m{
+    font-weight: 500;
+    font-size: 24px;
+    @include mobile{
+        font-size: 22px;
+    }
 }
