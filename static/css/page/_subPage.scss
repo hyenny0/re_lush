@@ -286,11 +286,12 @@
     margin-top: 120px;
     .img_container {
       width: 100%;
+      aspect-ratio: 10 / 3;
       background-image: url("/static/img/content/sub1_3_content_img.png");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      aspect-ratio: 10 / 3;
+      
       @include mobile{
         aspect-ratio: 10 / 4;
       }
