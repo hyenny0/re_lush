@@ -16,6 +16,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="https://hyenny0.github.io/re_lush/static/css/main.css" />
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
   </head>
   <body>
     <section class="sub_visual sub2_1_visual">
@@ -42,19 +43,19 @@
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="/static/img/content/sub2_1_imgSlider1.png" />
+              <img src="https://hyenny0.github.io/re_lush/static/img/content/sub2_1_imgSlider1.png" />
             </div>
             <div class="swiper-slide">
-              <img src="/static/img/content/sub2_1_imgSlider2.png" />
+              <img src="https://hyenny0.github.io/re_lush/static/img/content/sub2_1_imgSlider2.png" />
             </div>
             <div class="swiper-slide">
-              <img src="/static/img/content/sub2_1_imgSlider3.png" />
+              <img src="https://hyenny0.github.io/re_lush/static/img/content/sub2_1_imgSlider3.png" />
             </div>
             <div class="swiper-slide">
-                <img src="/static/img/content/sub2_1_imgSlider4.png" />
+                <img src="https://hyenny0.github.io/re_lush/static/img/content/sub2_1_imgSlider4.png" />
             </div>
             <div class="swiper-slide">
-                <img src="/static/img/content/sub2_1_imgSlider5.png" />
+                <img src="https://hyenny0.github.io/re_lush/static/img/content/sub2_1_imgSlider5.png" />
             </div>
           </div>
         </div>
@@ -91,5 +92,17 @@
         AOS.init();
       </script>
     <script src="/static/js/imgSlider.js"></script>
+    <script>
+        ScrollOut({
+            onShown: function(el) {
+              // use the web animation API
+              el.animate([{ opacity: 0 }, { opacity: 1 }], 1000);
+            },
+            onHidden: function(el) {
+              // hide the element initially
+              el.style.opacity = 0;
+            }
+          });
+    </script>
   </body>
 </html>
