@@ -8,6 +8,11 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="https://hyenny0.github.io/re_lush/static/css/main.css" />
     <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
 </head>
 <body>
     <section class="sub_visual sub1_2_visual">
@@ -35,6 +40,7 @@
             <div class="blur"></div>
         </div>
     </div>
+    <footer></footer>
     <script>
         AOS.init();
     </script>
@@ -51,6 +57,11 @@
                 .go();
             }
           });
+    </script>
+    <script>
+        $(function () {
+          $("footer").load("../base/footer.html");
+        });
     </script>
 </body>
 </html>

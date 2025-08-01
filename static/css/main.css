@@ -933,4 +933,80 @@ body {
     padding: 0 15px;
     font-size: 16px;
   }
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+}
+footer .inner {
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 85px 15px;
+}
+@media (min-width: 0px) and (max-width: 749px) {
+  footer .inner {
+    padding: 55px 15px;
+  }
+}
+footer .inner .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+@media (min-width: 0px) and (max-width: 749px) {
+  footer .inner .top {
+    margin-bottom: 30px;
+  }
+}
+footer .inner .top .info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(269px, 100%), 1fr));
+  grid-gap: 20px 12px;
+  width: 100%;
+}
+footer .inner .info_box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .inner .info_box p {
+  font-size: 16px;
+  font-weight: 500;
+}
+@media (min-width: 0px) and (max-width: 749px) {
+  footer .inner .info_box p {
+    font-size: 14px;
+  }
+}
+footer .inner .info_box ul {
+  line-height: 28px;
+}
+footer .inner .info_box ul.app {
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .inner .info_box ul.app li a {
+  display: flex;
+}
+footer .inner .info_box ul.app li a img {
+  height: 45px;
+}
+footer .inner .info_box ul li {
+  font-size: 15px;
+  font-size: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+@media (min-width: 0px) and (max-width: 749px) {
+  footer .inner .info_box ul li {
+    font-size: 14px;
+  }
+}
+footer .inner .info_box ul li a {
+  color: rgba(255, 255, 255, 0.8);
 }/*# sourceMappingURL=main.css.map */
