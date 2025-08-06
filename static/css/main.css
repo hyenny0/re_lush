@@ -938,6 +938,7 @@ body {
 footer {
   background-color: #000000;
   color: #fff;
+  margin-top: 200px;
 }
 footer .inner {
   max-width: 1700px;
